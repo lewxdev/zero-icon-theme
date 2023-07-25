@@ -1,6 +1,7 @@
 {
   "displayName": "Zero Icon Theme",
   "description": "A minimal, monochromatic icon theme inspired by Spectrum Icons from Alex Perronnet",
+  "themeLabel.default": "Zero (Default)",
   "themeLabel.legacy": "Zero (Legacy)",
   "themeLabel.minimal": "Zero (Minimal)"
 }

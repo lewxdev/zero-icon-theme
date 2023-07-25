@@ -17,14 +17,19 @@
   "contributes": {
     "iconThemes": [
       {
-        "id": "zero.minimal",
-        "label": "%themeLabel.minimal%",
-        "path": "./icons/minimal-icon-theme.json"
+        "id": "zero.default",
+        "label": "%themeLabel.default%",
+        "path": "./icons/default-icon-theme.json"
       },
       {
         "id": "zero.legacy",
         "label": "%themeLabel.legacy%",
         "path": "./icons/legacy-icon-theme.json"
+      },
+      {
+        "id": "zero.minimal",
+        "label": "%themeLabel.minimal%",
+        "path": "./icons/minimal-icon-theme.json"
       }
     ]
   },
