@@ -17,7 +17,12 @@
   "contributes": {
     "iconThemes": [
       {
-        "id": "legacy",
+        "id": "zero.minimal",
+        "label": "%themeLabel.minimal%",
+        "path": "./icons/minimal-icon-theme.json"
+      },
+      {
+        "id": "zero.legacy",
         "label": "%themeLabel.legacy%",
         "path": "./icons/legacy-icon-theme.json"
       }
