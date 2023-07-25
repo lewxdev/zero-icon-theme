@@ -68,16 +68,16 @@
       "iconPath": "./assets/light/default.svg"
     },
     "_document_dark": {
-      "iconPath": "./assets/dark/file.svg"
+      "iconPath": "./assets/dark/document.svg"
     },
     "_document_light": {
-      "iconPath": "./assets/light/file.svg"
+      "iconPath": "./assets/light/document.svg"
     },
     "_file_dark": {
-      "iconPath": "./assets/dark/default.svg"
+      "iconPath": "./assets/dark/file.svg"
     },
     "_file_light": {
-      "iconPath": "./assets/light/default.svg"
+      "iconPath": "./assets/light/file.svg"
     },
     "_fingerprint_dark": {
       "iconPath": "./assets/dark/fingerprint.svg"
@@ -91,11 +91,11 @@
     "_folder_light": {
       "iconPath": "./assets/light/folder.svg"
     },
-    "_folder_open_dark": {
-      "iconPath": "./assets/dark/folder-open.svg"
+    "_folder_expanded_dark": {
+      "iconPath": "./assets/dark/folder-expanded.svg"
     },
-    "_folder_open_light": {
-      "iconPath": "./assets/light/folder-open.svg"
+    "_folder_expanded_light": {
+      "iconPath": "./assets/light/folder-expanded.svg"
     },
     "_foss_dark": {
       "iconPath": "./assets/dark/foss.svg"
@@ -220,7 +220,7 @@
   },
   "file": "_file_dark",
   "folder": "_folder_dark",
-  "folderExpanded": "_folder_open_dark",
+  "folderExpanded": "_folder_expanded_dark",
   "fileExtensions": {
     "7z": "_archive_dark",
     "aiff": "_audio_dark",
@@ -502,7 +502,7 @@
   "light": {
     "file": "_file_light",
     "folder": "_folder_light",
-    "folderExpanded": "_folder_open_light",
+    "folderExpanded": "_folder_expanded_light",
     "fileExtensions": {
       "7z": "_archive_light",
       "aiff": "_audio_light",
