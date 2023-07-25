@@ -1,0 +1,32 @@
+{
+  "name": "zero-icon-theme",
+  "version": "0.1.0",
+  "preview": true,
+  "publisher": "lewxdev",
+  "engines": {
+    "vscode": "^1.80.0"
+  },
+  "packageManager": "pnpm@8.6.5",
+  "repository": "github:lewxdev/zero-icon-theme",
+  "license": "GPL-3.0",
+  "displayName": "%displayName%",
+  "description": "%description%",
+  "categories": ["Themes"],
+  "keywords": ["icon-theme", "minimal", "monochrome", "ui", "zero"],
+  "galleryBanner": {},
+  "contributes": {
+    "iconThemes": [
+      {
+        "id": "legacy",
+        "label": "%themeLabel.legacy%",
+        "path": "./icons/legacy-icon-theme.json"
+      }
+    ]
+  },
+  "scripts": {
+    "package": "vsce package"
+  },
+  "devDependencies": {
+    "@vscode/vsce": "^2.19.0"
+  }
+}

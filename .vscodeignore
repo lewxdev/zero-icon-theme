@@ -1,0 +1,10 @@
+# miscellaneous
+node_modules/**
+.DS_Store
+.gitignore
+.prettierrc
+
+# vscode
+.vscode-test/**
+.vscode/**
+*.vsix
