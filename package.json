@@ -24,7 +24,9 @@
     ]
   },
   "scripts": {
-    "package": "vsce package"
+    "clean": "rm -rf *.vsix",
+    "package": "vsce package",
+    "update": "pnpm package && code --install-extension ./*.vsix && pnpm clean"
   },
   "devDependencies": {
     "@vscode/vsce": "^2.19.0"
